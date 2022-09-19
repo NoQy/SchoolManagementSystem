@@ -1,0 +1,25 @@
+nav.navbar {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  background-color: #0099cc !important;
+  z-index: 10;
+}
+
+aside {
+  padding-top: 2rem;
+  height: calc(100vh - 4rem);
+
+  ul li {
+    margin: .7rem .1rem;
+
+    a {
+      color: #eee;
+      font-weight: bold;
+
+      &:hover {
+        color: #0099cc;
+      }
+    }
+  }
+}
